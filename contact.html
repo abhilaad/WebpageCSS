@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="contactstyle.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <span style="float:left;"> <a href="index.html" class='fa fa-5x fa-home'></a>
+    </span>
+    <a href="about.html"><i class="fa fa-fw fa-user"></i> About Us</a>
+    <a class="active" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa  fa-wrench"></i> Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="serv1.html" target="_blank">Article Writing</a>
+        <a href="serv2.html" target="_blank">Poster Making</a>
+        <a href="serv3.html" target="_blank">Quiz Arena</a>
+      </div>
+    </div>
+    <a href="gallery.html"><i class="fa fa-file-picture-o"></i> Gallery</a>
+    <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+
+  </div>
+  
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Your email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-75">
+
+      <div class="centerdiv">
+        <a class="icon" href="https://www.facebook.com/" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+
+        <a class="icon" href="https://www.youtube.com/" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+
+      </div>
+    </div>
+    <div class="col-25" id="demo"
+      style=" border: 1px solid red; border-radius: 10px; padding: 10px; box-shadow: 5px 10px red ">
+      <address>Address: XYZ Comapny,India</address>
+      <address>Email: xyz@gmail.com</address>
+      <address>Phone: 79XXXXXXXX</address>
+    </div>
+  </div>
+  <footer>
+  <div class="footer">
+    <h3>&copy; Research Development Food Safety 2020</h3>
+  </div>
+ </footer>
+
+</body>
+
+</html>
